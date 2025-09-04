@@ -1,12 +1,13 @@
-Arquivo .gitignore padrão para projetos .NET
-Pastas de dependências e ferramentas
+# Arquivo .gitignore padrão para projetos .NET
+
+# Pastas de dependências e ferramentas
 [Bb]in/
 [Oo]bj/
 tools/
 packages/
 *.nupkg
 
-Arquivos específicos do Visual Studio e VS Code
+# Arquivos específicos do Visual Studio e VS Code
 .vs/
 .vscode/
 *.suo
@@ -14,12 +15,12 @@ Arquivos específicos do Visual Studio e VS Code
 *.userosscache
 *.sln.docstates
 
-Arquivos de build e publicação
+# Arquivos de build e publicação
 publish/
 **/[Pp]ublish/
 **/[Dd]rop/
 
-Outros
+# Outros
 *.log
 *.tlog
 *.dll
